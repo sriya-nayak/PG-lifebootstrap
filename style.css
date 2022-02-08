@@ -1,0 +1,19 @@
+.x {
+    margin-left: 571px;
+    margin-top: 26px;
+}
+@media screen and (max-width: 1000px) and(min-width: 500px) {
+    .x {
+        display: flex;
+        margin-right: 345px;
+        align-self: center;
+    }
+}
+footer{
+    display: flex;
+    border: 2px solid black;
+    background-color: black;
+    color: aliceblue;
+    height: 34px;
+    align-items: center;
+}
